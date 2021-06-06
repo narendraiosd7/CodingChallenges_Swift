@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DD8E35D3266D336600887938 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8E35D2266D336600887938 /* main.swift */; };
 		DD8E35DA266D35D900887938 /* UniqueLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8E35D9266D35D900887938 /* UniqueLetters.swift */; };
+		DDA4F179266D501600B67213 /* Polindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4F178266D501600B67213 /* Polindrome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		DD8E35CF266D336600887938 /* CodingChallenges_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingChallenges_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8E35D2266D336600887938 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DD8E35D9266D35D900887938 /* UniqueLetters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueLetters.swift; sourceTree = "<group>"; };
+		DDA4F178266D501600B67213 /* Polindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polindrome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				DD8E35D2266D336600887938 /* main.swift */,
 				DD8E35D9266D35D900887938 /* UniqueLetters.swift */,
+				DDA4F178266D501600B67213 /* Polindrome.swift */,
 			);
 			path = CodingChallenges_Swift;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			files = (
 				DD8E35DA266D35D900887938 /* UniqueLetters.swift in Sources */,
 				DD8E35D3266D336600887938 /* main.swift in Sources */,
+				DDA4F179266D501600B67213 /* Polindrome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
