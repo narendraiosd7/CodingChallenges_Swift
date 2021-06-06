@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DD8E35D3266D336600887938 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8E35D2266D336600887938 /* main.swift */; };
+		DD8E35DA266D35D900887938 /* UniqueLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8E35D9266D35D900887938 /* UniqueLetters.swift */; };
+		DDA4F179266D501600B67213 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4F178266D501600B67213 /* Palindrome.swift */; };
+		DDA4F17B266D5AF000B67213 /* SameCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4F17A266D5AF000B67213 /* SameCharacters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		DD8E35CF266D336600887938 /* CodingChallenges_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingChallenges_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8E35D2266D336600887938 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DD8E35D9266D35D900887938 /* UniqueLetters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueLetters.swift; sourceTree = "<group>"; };
+		DDA4F178266D501600B67213 /* Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
+		DDA4F17A266D5AF000B67213 /* SameCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameCharacters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				DD8E35D2266D336600887938 /* main.swift */,
+				DD8E35D9266D35D900887938 /* UniqueLetters.swift */,
+				DDA4F178266D501600B67213 /* Palindrome.swift */,
+				DDA4F17A266D5AF000B67213 /* SameCharacters.swift */,
 			);
 			path = CodingChallenges_Swift;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8E35DA266D35D900887938 /* UniqueLetters.swift in Sources */,
+				DDA4F17B266D5AF000B67213 /* SameCharacters.swift in Sources */,
 				DD8E35D3266D336600887938 /* main.swift in Sources */,
+				DDA4F179266D501600B67213 /* Palindrome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
