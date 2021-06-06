@@ -26,5 +26,18 @@ let results1b = challenge1b(string: "abcdefghijklmnopqrstuvwxyz")
 //    •    The string “Never odd or even” should return false; even though the letters are the  same in reverse the spaces are in different places.  
 //    •    The string “Hello, world” should return false because it reads “dlrow ,olleH”  backwards.
 
-let palindromeResult1a = challenge2a(string: "Rats live on no evil star")
-print(palindromeResult1a)
+let palindromeResult1a = challenge2a(string: "Hello, world")
+
+//MARK: - Same characters
+
+//Sample input and output
+//    •    The strings “abca” and “abca” should return true.  
+//    •    The strings “abc” and “cba” should return true.  
+//    •    The strings “ a1 b2 ” and “b 1 a 2” should return true.  
+//    •    The strings “abc” and “abca” should return false.  
+//    •    The strings “abc” and “Abc” should return false.  
+//    •    The strings “abc” and “cbAa” should return false.
+
+let sameCharactersResults = sameCharactersin(string1: "abc", string2: "cbAa")
+let sameCharactersResults1 = sameCharactersIn(str1: "abca", str2: "abca")
+
